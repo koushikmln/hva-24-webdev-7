@@ -1,0 +1,19 @@
+h1 {
+    font-size: 40px;
+    color: maroon;
+}
+
+p {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.about-me {
+    background-color: lightcyan;
+}
+
+#profile-pic img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+}
