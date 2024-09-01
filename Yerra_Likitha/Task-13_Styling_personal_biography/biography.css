@@ -1,0 +1,14 @@
+h1{
+    color:brown;
+}
+body {
+    background-color: bisque;
+}
+p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:16px;
+}
+p:nth-child(3){
+    font-weight:bold;
+    font-style:italic;
+}

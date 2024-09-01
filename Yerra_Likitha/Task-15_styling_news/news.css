@@ -1,0 +1,29 @@
+html{
+    font-family:"Georgia, serif";
+}
+h1{
+    text-align:center;
+    text-decoration: underline;
+    color:brown;
+    font-size: 28px;
+    font-weight: bold;
+}
+.article-container{
+    background-color: aqua;
+    font-family: 'Times New Roman', Times, serif;
+    color:gray;
+    font-size: 14px;
+    text-align: justify;
+    padding: 1rem 2rem 2rem;
+}
+.article-meta p{
+    line-height: 1.6;
+    color: #fff;
+    font-size: 18px;
+    font-weight:normal;
+    font-style: italic;
+    text-decoration: none;
+
+}
+
+    
