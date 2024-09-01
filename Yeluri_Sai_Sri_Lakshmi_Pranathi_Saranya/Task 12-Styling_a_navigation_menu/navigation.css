@@ -1,0 +1,55 @@
+/* Remove default list style */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Style the nav element */
+nav {
+    background-color: #333;
+    padding: 1rem;
+}
+
+/* Style the links inside the list items */
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    display: block;
+}
+
+/* Style the special link with an ID selector */
+#special-link {
+    color: yellow;
+}
+
+/* Add a decorative element before each list item using the ::before pseudo-element */
+nav ul li::before {
+    content: "• ";
+    color: #fff;
+    margin-right: 0.5rem;
+}
+
+/* Style the submenu */
+nav ul li ul {
+    display: none;
+    position: absolute;
+    background-color: #444;
+    padding: 0.5rem;
+}
+
+/* Show the submenu when hovering over the parent list item */
+nav ul li:hover > ul {
+    display: block;
+}
+
+/* Style the direct children of the main <ul> list */
+nav > ul > li {
+    display: inline-block;
+}
+
+/* Style the list item that follows another list item using the adjacent sibling combinator */
+nav ul li + li {
+    margin-left: 1rem;
+}
