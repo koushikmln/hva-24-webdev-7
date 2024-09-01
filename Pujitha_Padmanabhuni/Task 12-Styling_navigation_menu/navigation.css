@@ -1,0 +1,27 @@
+ul {
+    list-style-type: none;
+}
+
+.nav1 {
+    background-color: blanchedalmond;
+    padding: 10px;
+}
+
+#nav2 {
+    font-size: 25px;
+}
+
+li::before {
+    content: ".";
+    color: brown;
+    font-size: 25px;
+    margin-right: 5px;
+}
+
+.nav1>ul>li:hover>a {
+    color: black;
+}
+
+.nav1>ul>li+li {
+    border-top: 1px solid gray;
+}

@@ -1,0 +1,33 @@
+h1 {
+    color: brown;
+    font-size: 36px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: left;
+}
+
+body {
+    background-color: rgb(255, 237, 215);
+    font-family: Arial, sans-serif;
+}
+
+p {
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+.post-content {
+    background-color: rgb(235, 226, 226);
+    padding: 20px;
+}
+
+blockquote {
+    font-style: italic;
+}

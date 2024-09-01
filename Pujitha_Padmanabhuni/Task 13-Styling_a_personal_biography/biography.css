@@ -1,0 +1,17 @@
+h1 {
+    color: purple;
+}
+
+body {
+    background-color: rgb(243, 193, 210);
+}
+
+.p1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.p2 {
+    font-weight: bold;
+    font-style: italic;
+}

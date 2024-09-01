@@ -1,0 +1,10 @@
+img {
+    border-radius: 50%;
+    width: 220px;
+    height: 250px;
+}
+
+.about-me-content {
+    display: flex;
+    line-height: 1.5;
+}
