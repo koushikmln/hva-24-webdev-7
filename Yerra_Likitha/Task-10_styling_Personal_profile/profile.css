@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(138, 156, 156);
+}
+h1{
+    color:brown;
+    font-size:50px;
+}
+p{
+    font-size: 15px;
+    line-height: 10px;
+}
+span{
+    color:rgb(42, 42, 121);
+}
+.demo{
+    background: crimson;
+    padding: 1px 0 1px;
+}
+#dem img {
+    border-radius: 15px;
+
+}

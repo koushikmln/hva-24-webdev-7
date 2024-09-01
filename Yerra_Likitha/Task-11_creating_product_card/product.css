@@ -1,0 +1,22 @@
+body{
+    background-color: aliceblue;
+}
+.product-card {
+    background-color: rgb(43, 226, 104);
+    padding:1px 0 1px;
+}
+.product-card h3{
+    font-size:30px;
+}
+.product-card p{
+    font-size:20px;
+}
+button {
+    padding: 1% 2% 1%;
+    background-color: brown;
+    color:aliceblue;
+}
+ul li:hover{
+    background-color: cadetblue;
+
+}

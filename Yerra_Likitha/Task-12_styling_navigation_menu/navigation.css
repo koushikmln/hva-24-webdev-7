@@ -1,0 +1,40 @@
+body{
+    background-color: bisque;
+}
+nav {
+    background-color:darkcyan;
+    padding:1%;
+}
+nav ul{
+    list-style: none;
+    text-align:center;
+    font-size: x-large;
+}
+nav li{
+    display:inline-block;
+    margin-right:20px;
+    
+}
+nav a{
+    color:rgb(171, 12, 12);
+    text-decoration: none;
+
+}
+#home-link{
+    background-color: brown;
+    color:black;
+}
+nav li ::before{
+    content:"->";
+    color:black;
+    margin:7px;
+}
+.main{
+    color:aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+}
+nav li + li {
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+}
