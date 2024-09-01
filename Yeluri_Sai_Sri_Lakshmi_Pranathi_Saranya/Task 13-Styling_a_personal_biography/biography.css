@@ -1,0 +1,14 @@
+h1{
+    color:pink;
+}
+body{
+    background-color: yellow;
+}
+p{
+    font-family: arial;
+    font-size: 16px;
+}
+p:last-of-type {
+    font-weight: bold;
+    font-style: italic;
+}
