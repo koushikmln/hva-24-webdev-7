@@ -1,0 +1,14 @@
+h2{
+    text-decoration: underline;
+    text-align: center;
+}
+
+p{
+    line-height: 1.6;
+    color: darkgoldenrod;
+}
+
+div{
+    background-color: bisque;
+    font-family: 'Times New Roman';
+}

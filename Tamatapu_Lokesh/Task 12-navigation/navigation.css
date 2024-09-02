@@ -1,0 +1,26 @@
+ul {
+  list-style-type: none;
+}
+
+nav {
+  background-color: bisque;
+  padding: 10px;
+}
+
+#specific a{
+    font-size: 20px;
+    color: rgb(93, 222, 23);
+    text-decoration: none;
+}
+
+li::before {
+    content: "•"; 
+    color: red; 
+    margin-right: 8px; 
+    font-size: 1.5em; 
+  }
+
+  nav > ul > li {
+    display: inline-block;
+    position: relative; 
+}
