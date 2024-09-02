@@ -1,0 +1,429 @@
+.main{
+    width: 1440px;
+    height: 2003px;
+    flex-shrink: 0;
+    background: #F8F8F4;
+  
+
+}
+
+.container{
+ width: 1440px;
+
+flex-shrink: 0;
+background: #F8F8F4;
+display: inline-flex;
+flex-direction: column;
+align-items: center;
+gap: 89px;
+
+}
+.header{
+    width: 563px;
+    height: 118px;
+    display: flex;
+justify-content: center;
+align-items: center;
+gap: 4px;
+
+}
+.header_content{
+color: var(--Dark, #3C3030);
+font-family: "Iowan Old Style";
+font-size: 84px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%; /* 117.6px */
+width: 351px;
+height: 118px;
+
+
+}
+.header_content1{
+color: var(--Dark, #3C3030);
+font-family: "Iowan Old Style";
+font-size: 84px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%; /* 117.6px */
+}
+.line{
+width: 1440px;
+height: 1px;
+background: #3C3030;
+margin-top: -57px;
+}
+.line1{
+width: 1440px;
+height: 1px;
+background: #3C3030;
+margin: -3px;
+
+}
+.search{
+    width: 1440px;
+height: 60px;
+flex-shrink: 0;
+  display: flex;
+ justify-content: center;  
+ 
+}
+.search_icon{
+    width: 32px;
+height: 32px;
+flex-shrink: 0;
+}
+.search_content{
+    color: var(--Dark, #3C3030);
+font-family: "Iowan Old Style";
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%; /* 28px */
+opacity: 0.61;
+
+}
+.search_box{
+    width: 267px;
+    height: 60px;
+    flex-shrink: 0;
+    display: flex;
+    
+
+    align-items: center;
+    border: 1px solid var(--Dark, #3C3030);
+opacity: 0.3;
+
+    
+}
+.gobox{
+    display: inline-flex;
+    padding: 17px 13px 16px 22px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 61px;
+    height: 61px;
+    box-sizing: border-box;
+    border-radius: 1px;
+    border: 1px solid #E84848;
+    background: #E84848;
+    border-radius: 1px;
+
+}
+.insidego{
+    color: var(--light, #FDFDFA);
+font-family: "Iowan Old Style";
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+}
+.content_section{
+    width: 910;
+    height: 1387;
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 25px;
+
+
+
+}
+.main_content{
+    display: flex;
+    flex-direction: column;
+align-items: flex-start;
+gap: 96px;
+
+}
+.text{
+    width: 194;
+    height: 28;
+    color: var(--Dark-Red, #D02424);
+font-family: "Inria Sans";
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%; /* 28px */
+letter-spacing: -0.4px;
+text-transform: uppercase;
+margin-left: 0px;
+
+display: flex;
+align-items: flex-start;
+}
+
+.row_section{
+height: 388;
+width: 910;
+display: flex;
+align-items: flex-start;
+gap: 80px;
+
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+   
+    
+}
+
+.headlines{
+    color: var(--Dark, #3C3030);
+font-family: "Inknut Antiqua";
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 120%; /* 21.6px */
+letter-spacing: -0.72px;
+width: 250px;
+margin: 0px;
+}
+.news_content{
+    width: 250px;
+    color: var(--Dark, #3C3030);
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%; /* 22.4px */
+opacity: 0.8;
+margin: 0px;
+}
+.full_article{
+width: 108px;
+
+color: var(--Dark, #3C3030);
+font-family: "Inria Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%; /* 22.4px */
+margin: 0px;
+}
+.more{
+    
+    width: 22px;
+    color: var(--Dark-Red, #D02424);
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 140%; /* 22.4px */
+text-decoration-line: underline;
+margin: 0px;
+}
+.footer_line{
+    width: 1440px;
+height: 1px;
+background: #3C3030;
+margin-bottom: 59px;
+}
+.footer{
+    width: 1440px;
+    height: 81px;
+    box-sizing: border-box;
+}
+.footer_text{
+    color: var(--Dark, #3C3030);
+font-family: "Iowan Old Style";
+font-size: 15.095px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%; /* 21.133px */
+
+}
+.footerimg{
+    width: 8.302px;
+height: 8.302px;
+fill: #E84848;
+
+margin: 0px;
+}
+.org{
+    color: var(--Dark, #3C3030);
+font-family: "Iowan Old Style";
+font-size: 15.095px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%; /* 21.133px */
+width: 26px;
+height: 21px;
+
+}
+.footer_endtext{
+    color: var(--Dark, #3C3030);
+font-family: "Inria Serif";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%; /* 22.4px */
+width: 367px;
+height: 22px;
+
+}
+.footer_content{
+    display: flex;
+align-items: flex-start;
+justify-content: center;
+gap: 8px;
+    width: 1400px;
+    height: 81px;
+}
+
+.footer_div{
+display: flex;
+align-items: center;
+gap: 2.264px;
+}   
+
+    
+
+.end_footer{
+    margin-bottom: 57px;
+    
+}
+@media screen and (max-width: 415px){
+    .main{
+        
+        display: inline-flex;
+        padding-top: 29px;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        
+        height: 100%;
+        width: 400%;
+
+    }
+    .container{
+        display: flex;
+flex-direction: column;
+align-items: center;
+gap: 60px;
+
+width: 414px;
+
+    }
+
+    .header{
+        display: flex;
+justify-content: center;
+align-items: center;
+gap: 1.712px;
+height: 50px;
+
+    }
+    .header_content{
+        font-size: 35.957px;
+        width: 150px;
+        height:50px ;
+    }
+    .header_img{
+        width: 25.809px;
+height: 25.809px;
+    }
+    .header_content1{
+        font-size: 35.957px;
+        width: 62px;
+        height: 50px;
+    }
+    .line{
+        width: 414px;
+height: 1px;
+background: #3C3030;
+margin-top: -40px;
+    }
+    .line1{
+        width: 414px;
+height: 1px;
+background: #3C3030;
+    }
+    .search_box{
+        width: 303px;
+        height: 60px;
+    }
+    .content_section{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 18px;
+    }
+   
+    .main_content{
+        display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 64px;
+
+    }
+    .row_section{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 64px;
+        
+    }
+    .item{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+        
+    }
+    .footer{
+        display: flex;
+        height: 162px;
+        flex-direction: column;
+        align-items: center;
+        gap: 28px;
+        height: 162px;
+    width:  414px;
+    box-sizing: border-box;
+    }
+    .footer_line{
+        width: 414px;
+height: 1px;
+background: #3C3030;
+margin: 0px;
+    }
+
+    .footer_content{
+        display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap:0px;
+width: 187px;
+height: 81px;
+margin-top: 28px;
+box-sizing: border-box;
+    }
+
+    .footer_div{
+        display: flex;
+align-items: center;
+gap: 2.264px;
+
+
+    }
+   
+    .footer_endtext{
+        color: var(--Dark, #3C3030);
+        text-align: center;
+        font-family: "Inria Serif";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%; /* 22.4px */
+        width: 181px;
+        height:66px;
+        width: 181px;
+
+}
+
+}
