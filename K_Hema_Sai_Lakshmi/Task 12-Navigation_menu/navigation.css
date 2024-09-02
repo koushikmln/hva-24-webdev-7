@@ -1,0 +1,50 @@
+nav ul{
+    list-style-type: none;
+    color: aqua;
+    margin:0px;
+    width:100%;
+    background-color: rgb(211, 171, 171);
+    height: 10vh;
+    border:2px solid red;
+    padding-top: 20px;
+    
+
+}
+nav ul li{
+    
+    float: left;
+    padding: 20px;  
+    /* position:relative ;  */
+    
+}
+
+nav ul li ul {
+  display:none;
+   background-color: rgb(165, 164, 215);
+   width:90px;
+   height: 8vh;
+   color:black;
+   text-align: center;
+   padding: 0px;
+   padding-top: 5px;
+   /* border: none; */
+}
+nav ul li::before{
+    content:"⦿";
+    color: aliceblue;
+    padding: 10px;
+    
+   
+}
+nav ul li:hover ul {
+    display:block;
+     position:absolute;
+    
+}
+nav ul li ul li{
+    color: rgb(178, 237, 227);
+    padding: 0px;
+} 
+nav ul .ghj +li{
+    border-left: 2px solid rgb(6, 16, 20);
+}
