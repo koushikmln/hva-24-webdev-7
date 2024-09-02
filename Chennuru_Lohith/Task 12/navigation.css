@@ -1,0 +1,18 @@
+nav{
+    background-color: rgb(0, 0, 0);
+    padding:10px;
+}
+#men1{
+    color: deeppink;
+}
+li::before{
+    content:"*";
+    color:chartreuse;
+    margin:10px;
+} 
+
+nav>ul>li{
+    color: rgb(245, 208, 1);
+    margin: 15px;
+
+}
