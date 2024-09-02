@@ -1,0 +1,28 @@
+.product-card h3 {
+    color: rgb(218, 227, 85);
+    font-size: 1.5em;
+}
+.product-card p {
+    color: rgb(228, 53, 26);
+}
+button[type="button"] {
+    background-color: rgb(237, 195, 129);
+    cursor: pointer;
+    padding: 10px;
+
+}
+button[type="button"]:hover{
+    background-color: rgb(230, 238, 245);
+    color: black;
+    border:2px solid black;
+
+}
+.product-card ul li {
+    background-color: rgb(150, 184, 214);
+    padding: 20px;
+    list-style-type: none;
+}
+.product-card ul li:hover {
+    background-color: rgb(238, 236, 228);
+    border: 2px solid black;
+}
