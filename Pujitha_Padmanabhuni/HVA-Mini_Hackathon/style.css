@@ -1,0 +1,386 @@
+body {
+    width: 1440px;
+    height: 2003px;
+    flex-shrink: 0;
+    background: #F8F8F4;
+    padding-top: 32px;
+}
+
+.main {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 89px;
+}
+
+.frames1 {
+    margin-top: -89px;
+}
+
+#header-section {
+    margin-bottom: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+
+#header-section svg {
+    width: 60.291px;
+    height: 60.291px;
+}
+
+#header-section span {
+    color: var(--Dark, #3C3030);
+    font-family: "Iowan Old Style";
+    font-size: 84px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    /* 117.6px */
+}
+
+.frames {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 7px;
+}
+
+#hr1,
+#hr2 {
+    width: 1440px;
+    height: 1px;
+    background: #3C3030;
+}
+
+#hr1 {
+    margin-top: 0px;
+}
+
+#hr2 {
+    margin-bottom: 57px;
+}
+
+.search-section {
+    width: 327px;
+    height: 61px;
+    display: flex;
+}
+
+.searchdiv {
+    display: flex;
+    width: 267px;
+    height: 60px;
+    flex-shrink: 0;
+    border: 1px solid var(--Dark, #3C3030);
+    opacity: 0.3;
+    align-items: center;
+}
+
+.searchcontent {
+    color: var(--Dark, #3C3030);
+    font-family: "Iowan Old Style";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    /* 28px */
+    opacity: 0.61;
+}
+
+.go-button {
+    display: inline-flex;
+    padding: 17px 13px 16px 22px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 1px;
+    border: 1px solid #E84848;
+    background: #E84848;
+}
+
+.go {
+    color: var(--light, #FDFDFA);
+    font-family: "Iowan Old Style";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    /* 28px */
+}
+
+.search-icon {
+    width: 32px;
+    height: 32px;
+    flex-shrink: 0;
+}
+
+.topnews-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+}
+
+.topnews-heading {
+    color: var(--Dark-Red, #D02424);
+    font-family: "Inria Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    /* 28px */
+    letter-spacing: -0.4px;
+    text-transform: uppercase;
+}
+
+.news {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 96px;
+}
+
+.row1 {
+    display: flex;
+    align-items: flex-start;
+    gap: 80px;
+}
+
+.column-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.row1col1 {
+    width: 250px;
+    height: 120px;
+    background: url('images/row1col1.png') lightgray 50% / cover no-repeat;
+}
+
+.heading {
+    color: var(--Dark, #3C3030);
+    font-family: "Inknut Antiqua";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    /* 21.6px */
+    letter-spacing: -0.72px;
+    width: 250px;
+}
+
+.description {
+    color: var(--Dark, #3C3030);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    /* 22.4px */
+    opacity: 0.8;
+    width: 250px;
+}
+
+.ending {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.read {
+    color: var(--Dark, #3C3030);
+    font-family: "Inria Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    /* 22.4px */
+}
+
+.arrow a {
+    color: var(--Dark-Red, #D02424);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    /* 22.4px */
+    text-decoration-line: underline;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 59px;
+}
+
+.line {
+    width: 1440px;
+    height: 1px;
+    background: #3C3030;
+}
+
+.copyright {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.item1 {
+    display: flex;
+    align-items: center;
+    gap: 2.264px;
+}
+
+.des1 {
+    color: var(--Dark, #3C3030);
+    font-family: "Iowan Old Style";
+    font-size: 15.095px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    /* 21.133px */
+}
+
+.item2 {
+    color: var(--Dark, #3C3030);
+    font-family: "Inria Serif";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    /* 22.4px */
+}
+
+@media screen and (max-width:415px) {
+    body {
+        display: inline-flex;
+        padding-top: 29px;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        background: #F8F8F4;
+    }
+    .main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 60px;
+    }
+    #header-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1.712px;
+        margin-bottom: 20px;
+    }
+    #header-section svg {
+        width: 25.809px;
+        height: 25.809px;
+    }
+    #header-section span {
+        font-size: 35.957px;
+    }
+    .frames {
+        margin-top: 20px;
+        gap: 0px;
+    }
+    #hr1,
+    #hr2 {
+        width: 414px;
+        height: 1px;
+    }
+    .frames1 {
+        margin-top: -60px;
+    }
+    #hr2 {
+        margin-bottom: 60px;
+    }
+    .search-section {
+        width: 362px;
+        height: 61px;
+    }
+    .searchdiv {
+        width: 337px;
+        height: 61px;
+        flex-shrink: 0;
+    }
+    .topnews-section {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 18px;
+    }
+    .row1 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 64px;
+    }
+    .column-3 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+    }
+    .row1col1 {
+        width: 364px;
+        height: 180px;
+    }
+    .heading {
+        width: 360px;
+    }
+    .description {
+        width: 361px;
+    }
+    .footer {
+        display: flex;
+        height: 162px;
+        flex-direction: column;
+        align-items: center;
+        gap: 28px;
+    }
+    .line {
+        width: 414px;
+        height: 1px;
+        background: #3C3030;
+    }
+    .copyright {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0px;
+    }
+    .item1 {
+        display: flex;
+        align-items: center;
+        gap: 2.264px;
+    }
+    .des1 {
+        color: var(--Dark, #3C3030);
+        font-family: "Iowan Old Style";
+        font-size: 15.095px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%;
+        /* 21.133px */
+    }
+    .item2 {
+        color: var(--Dark, #3C3030);
+        text-align: center;
+        font-family: "Inria Serif";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%;
+        width: 181px;
+        /* 22.4px */
+    }
+}
