@@ -11,6 +11,8 @@ function  displayProducts(array){
     })
    
 }
+console.log(`Products without tax`);
+displayProducts(products);
 let taxRate = 0.10;
 
 let productsWithTax = products.map(function(item){
@@ -22,19 +24,23 @@ let productsWithTax = products.map(function(item){
 
     };
 });
+console.log(`Products with tax`)
 displayProducts(productsWithTax);
 let foodProducts = products.filter(function(item){
     return item.category=="Food";
 })
+console.log(`products with caterory food`);
 displayProducts(foodProducts);
 let AffordableProducts  = products.filter(function(item){
     return item.price<10})
 .map(function(item) {
      return `${item.name} - $${item.price}`
         });
+console.log(`Affordable Products`)
 console.log(AffordableProducts);
 totalprice=0
 products.forEach(function(item){
    (totalprice+=item.price*(1+0.1)).toFixed(2);
 })
+console.log(`Total Price`)
 console.log(`${totalprice}`);
