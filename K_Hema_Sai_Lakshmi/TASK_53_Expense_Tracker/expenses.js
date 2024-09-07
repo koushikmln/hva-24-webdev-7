@@ -1,4 +1,4 @@
-// Define an array called expenses
+
 let expenses = [
     {
         id: 1,
