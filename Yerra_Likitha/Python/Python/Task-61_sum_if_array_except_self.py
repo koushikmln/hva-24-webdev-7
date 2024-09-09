@@ -1,6 +1,10 @@
-n=[7,3,6,7,5]
-i=0
-sum=0
-for i in range(len(n)):
-    sum=sum+n[i]
-print(sum)
+a=list(map(int,input().split()))
+s=[]
+for i in range(len(a)):
+    sum=0
+    for j in range(len(a)):
+        if i!=j:
+            sum=sum+a[j]
+    s.append(sum)
+print(*s)
+
