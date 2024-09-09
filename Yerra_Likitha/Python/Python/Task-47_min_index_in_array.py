@@ -4,7 +4,7 @@ m=len(n)
 i=0
 min_index=0
 min=n[0]
-while i<m-1:
+while i<=m-1:
     if n[i]<min:
         min=n[i]
         min_index=i+1
