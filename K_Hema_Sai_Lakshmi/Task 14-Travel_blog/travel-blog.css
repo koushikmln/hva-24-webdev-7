@@ -1,0 +1,25 @@
+h1{
+    color: red;
+    font-size: 36px;
+    text-decoration: underline;
+    text-align: center;
+
+}
+h2{
+    font-size: 28px;
+    text-decoration: underline;
+    text-align: left;
+}
+body{
+    background-color: rgb(239, 239, 167);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+
+}
+blockquote{
+    font-style: italic;
+}
+.post-content{
+    background-color: aquamarine;
+}

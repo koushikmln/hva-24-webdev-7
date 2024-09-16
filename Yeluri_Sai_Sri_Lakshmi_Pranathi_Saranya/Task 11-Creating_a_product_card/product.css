@@ -1,0 +1,13 @@
+.product-card h3{
+    color:red;
+}
+.product-card p{
+    color:green;
+}
+button[type="button"]{
+    background-color: yellow;
+    padding:10px 20px;
+}
+li:hover {
+    background-color:purple;
+}
