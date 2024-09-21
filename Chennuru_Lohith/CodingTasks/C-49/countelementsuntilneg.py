@@ -1,0 +1,10 @@
+arr=[10,5,6,3,-1,4,-3,5,6]
+counter=0
+i=0
+while(i<len(arr)):
+    if(arr[i]<0):
+        break
+    else:
+        counter+=1
+    i+=1
+print(counter)
