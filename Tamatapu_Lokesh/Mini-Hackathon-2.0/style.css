@@ -1,0 +1,11 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+form{
+    box-sizing: border-box;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+}
