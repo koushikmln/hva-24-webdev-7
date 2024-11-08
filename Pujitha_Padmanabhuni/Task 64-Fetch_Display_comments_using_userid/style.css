@@ -1,0 +1,40 @@
+.post-box {
+    background-color: pink;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid pink;
+    /* max-width: 600px; */
+    width: 60%;
+}
+
+#posts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+#input {
+    width: 300px;
+    align-items: center;
+    height: 40px;
+}
+
+#btn {
+    background-color: green;
+    color: white;
+    width: 150px;
+    height: 40px;
+    font-size: large;
+}
+
+#input_content {
+    align-items: center;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}

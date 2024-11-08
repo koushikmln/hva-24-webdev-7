@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#input_content {
+    align-items: center;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+input {
+    width: 300px;
+    height: 50px;
+}
+
+#submit_btn {
+    padding: 20px 30px;
+    color: white;
+    background-color: green;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 100px;
+    font-size: large;
+    border-radius: 3%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+/* #post {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: rgb(190, 187, 187);
+    background-color: black;
+} */
